@@ -28,6 +28,16 @@
         }
 
     </script>
+    <style>
+        div.container {
+            text-align: center;
+        }
+        ol.myUL {
+            display: inline-block;
+            text-align: left;
+            font-size: large;
+        }
+    </style>
 
 </head>
 <body>
@@ -35,7 +45,29 @@
     <h2>Please press the button to see a random cat fact</h1>
     <button type="button" onclick="getWelcome()">Click me to see message</button>
     <p id="welcome"></p>
+    
     </center>
+    <br></br>
+    <div class="container">
+    <ol class="myUL">
+        <li>The API I selected is a cat fact generator. It stores cat facts in
+            the JSON array and once you press the button it will randomly select
+            a fact.
+        </li>
+        <li>
+            I found the API key in public API in github (uploaded in Canvas)
+        </li>
+        <li>
+            Since the API is only showing one element at a time, I only need to 
+            provide the location of the array (ie. array.data)
+        </li>
+        <li>
+            This could be helpful when you want to design a game or fun website
+            that provide random cat fact.
+        </li>
+    </ol>
+    </div>
+    
     
 </body>
     
